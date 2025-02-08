@@ -2,7 +2,7 @@
 
 int main(){
     int a,b,c;
-    scanf("%d %d",&a,&b);
+    scanf("%d %d %d",&a,&b,&c);
     if(c=="+"){
         printf("%d",a+b);
     }
@@ -18,5 +18,5 @@ int main(){
     else{
         printf("error");
     }
-
+return 0;
 }
