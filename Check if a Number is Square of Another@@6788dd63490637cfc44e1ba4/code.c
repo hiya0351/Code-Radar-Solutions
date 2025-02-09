@@ -3,7 +3,7 @@
 int main(){
     int a,b,square;
     scanf("%d %d",&a,&b);
-    square=b**b;
+    square=b*b;
     if(a==square){
         printf("Yes");
     }
