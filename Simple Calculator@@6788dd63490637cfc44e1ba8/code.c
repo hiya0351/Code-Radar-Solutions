@@ -7,20 +7,20 @@ int main(){
     
 
     if(c=='+'){
-        printf("%f",a+b);
+        printf("%.2f",a+b);
     }
     else if(c=='-'){
-        printf("%f",a-b);
+        printf("%.2f",a-b);
     }
     else if(c=='*'){
-        printf("%f",a*b);
+        printf("%.2f",a*b);
     }
     else if(c=='/'){
         if(b==0){
         printf("error in division");
         }
         else{
-            printf("%f",a/b);
+            printf("%.2f",a/b);
         }
     }
     else{
