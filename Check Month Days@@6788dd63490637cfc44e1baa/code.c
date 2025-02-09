@@ -13,19 +13,19 @@ int main(){
         printf("March");
     }
     else if(a==4){
-        printf("April")
+        printf("April");
     }
     else if(a==5){
-        printf("May")
+        printf("May");
     }
     else if(a==6){
-        printf("June")
+        printf("June");
     }
     else if(a==7){
-        printf("July")
+        printf("July");
     }
     else if(a==8){
-        printf("August")
+        printf("August");
     }
     else if(a==9){
         printf("September");
@@ -40,7 +40,7 @@ int main(){
         printf("December");
     }
     else{
-        printf("Invalid month")
+        printf("Invalid month");
     }
 }
 
