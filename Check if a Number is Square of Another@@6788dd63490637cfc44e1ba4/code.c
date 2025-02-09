@@ -3,7 +3,8 @@
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    if(a==(int)pow(b,b)){
+    square=b**b;
+    if(a==square){
         printf("Yes");
     }
     else{
