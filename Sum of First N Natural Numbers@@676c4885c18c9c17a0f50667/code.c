@@ -2,7 +2,7 @@
 
 int main(){
     int N,sum=0,i;
-    scanf("%d %d",&N,&i);
+    scanf("%d",&i);
     for(N=1;N<=i;N++){
         sum=sum+N;
     }
