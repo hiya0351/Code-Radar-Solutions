@@ -1,26 +1,26 @@
 #include <stdio.h>
 
 int main(){
-    int a,b;
+    float a,b;
     char c;
-    scanf("%d %c %d", &a, &c, &b);
+    scanf("%f %c %f", &a, &c, &b);
     
 
     if(c=='+'){
-        printf("%d",a+b);
+        printf("%f",a+b);
     }
     else if(c=='-'){
-        printf("%d",a-b);
+        printf("%f",a-b);
     }
     else if(c=='*'){
-        printf("%d",a*b);
+        printf("%f",a*b);
     }
     else if(c=='/'){
         if(b==0){
         printf("error in division");
         }
         else{
-            printf("%d",a/b);
+            printf("%f",a/b);
         }
     }
     else{
