@@ -1,12 +1,15 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
-    int i;
+    int i,j;
     scanf("%d",&i);
-    if(i>1 && i%2!=0 && i%(sqrt(n))!=0 ){
+    for (j=2;j<i;j++){
+       if(i%j==0){
         printf("Prime");
+       }
+       else{
+        printf("Not Prime")
+       }
     }
-    else{
-        printf("Not Prime");
-    }
+    return 0;
 }
