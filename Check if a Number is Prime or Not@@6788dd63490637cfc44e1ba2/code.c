@@ -2,8 +2,11 @@
 int main(){
     int i,j;
     scanf("%d",&i);
+    if(i<=1){
+        printf("Not Prime")
+    }
     for (j=2;j<i;j++){
-       if(i%j==0 || i<=1){
+       if(i%j==0 ){
         printf("Not Prime"); 
     }
     else{
