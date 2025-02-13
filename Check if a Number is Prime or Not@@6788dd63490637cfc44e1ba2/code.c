@@ -3,7 +3,7 @@
 int main(){
     int i;
     scanf("%d",&i);
-    if(i>1 && i%2!=0 && i%(sqrt(n)!=0) ){
+    if(i>1 && i%2!=0 && i%(sqrt(n))!=0 ){
         printf("Prime");
     }
     else{
