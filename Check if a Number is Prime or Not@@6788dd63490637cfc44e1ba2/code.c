@@ -7,12 +7,12 @@ int main(){
     }
     for (j=2;j<i;j++){
        if(i%j==0 ){
-        printf("Not Prime");
+        printf("Not Prime\n");
         return 0; 
     }
     
 }
-printf("Prime")
+printf("Prime\n");
      
 return 0;
 }
