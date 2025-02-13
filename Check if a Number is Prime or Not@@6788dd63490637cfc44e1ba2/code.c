@@ -7,8 +7,10 @@ int main(){
        if(i%j==0 || i<=1){
         printf(" Not Prime"); 
     }
-   
+   else{
+    printf("Prime")
+   }
 }
-  printf("Prime");
+ 
 return 0;
 }
