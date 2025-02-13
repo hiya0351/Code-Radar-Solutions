@@ -2,18 +2,17 @@
 int main(){
     int i,j;
     scanf("%d",&i);
-    if(i<=1){
+    if(i>2){
         printf("Not Prime\n");
     }
     for (j=2;j<i;j++){
        if(i%j==0 ){
-        printf("Not Prime"); 
+        printf("Not Prime");
+        return 0; 
     }
-    else{
-         printf("Prime");
-   }
- 
+    
 }
+printf("Prime")
      
 return 0;
 }
