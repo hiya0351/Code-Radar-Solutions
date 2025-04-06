@@ -11,8 +11,8 @@ int main(){
         for(int k=1;k<=nsp;k++){
             printf(" ");
         }
-        nst++;
-        nsp--;
+        nst--;
+        nsp++;
     }
     return 0;
 }
