@@ -2,14 +2,12 @@
 int main(){
     int a,i,j;
     scanf("%d",&a);
-    int nsp=1;
     for(i=1;i<=a;i++){
         for(j=1;j<=i;j++){
             printf("*");
-        }for(int k=1;k<=nsp;k++){
+        }for(int k=1;k<=n-i;k++){
             printf(" ");
         }
-        nsp++;
         printf("\n");
     }
     return 0;
