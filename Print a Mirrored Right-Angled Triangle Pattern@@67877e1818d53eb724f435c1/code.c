@@ -9,6 +9,7 @@ int main(){
         }for(int k=1;k<=nsp;k++){
             printf(" ");
         }
+        nsp--;
         printf("\n");
     }
     return 0;
