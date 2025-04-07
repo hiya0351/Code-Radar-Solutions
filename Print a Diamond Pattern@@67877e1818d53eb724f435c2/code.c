@@ -5,7 +5,7 @@ int main(){
     if(n%2==0){
         n++;
     }
-    else{
+    else if(n%2!=0){
         n=n+2;
     }
     int nst=1;
