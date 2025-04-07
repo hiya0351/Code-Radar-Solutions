@@ -5,6 +5,9 @@ int main(){
     if(n%2==0){
         n++;
     }
+    else{
+        n++;
+    }
     int nst=1;
     int nsp=n;
     for(int i=1;i<=n;i++){
