@@ -17,7 +17,7 @@ int main(){
         for(int k=1;k<=nst;k++){
            printf("*");
         }
-        if(i<(n/2)+1){
+        if(i<=(n/2)+1){
             nst=nst+2;
             nsp--;
         }
