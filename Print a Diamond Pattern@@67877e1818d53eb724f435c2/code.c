@@ -2,11 +2,11 @@
 int main(){
     int n;
     scanf("%d",&n);
-     if(i%2==0){
-        i++;
+     if(n%2==0){
+        n++;
     }
     else{
-        i=i+2;
+        n=i+2;
     }
     int nst=1;
     int nsp=n/2;
