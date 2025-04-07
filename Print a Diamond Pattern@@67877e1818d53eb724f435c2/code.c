@@ -6,7 +6,7 @@ int main(){
         n++;
     }
     else{
-        n++;
+        n=n+2;
     }
     int nst=1;
     int nsp=n/2;
