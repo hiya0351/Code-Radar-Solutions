@@ -16,7 +16,7 @@ int main(){
             nsp--;
         }
         else{
-            nst=nst-2;
+            nst=nst+2;
             nsp++;
         }
          printf("\n");
