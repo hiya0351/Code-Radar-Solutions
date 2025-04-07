@@ -13,7 +13,7 @@ int main(){
         }
         if(i<n/2+1){
             nst=nst+2;
-            nsp++;
+            nsp--;
         }
         else{
             nst=nst-2;
