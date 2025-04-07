@@ -2,12 +2,7 @@
 int main(){
     int n;
     scanf("%d",&n);
-    if(n%2==0){
-        n++;
-    }
-    else if(n%2!=0){
-        n=n+2;
-    }
+    n=n+1;
     int nst=1;
     int nsp=n/2;
     for(int i=1;i<=n;i++){
