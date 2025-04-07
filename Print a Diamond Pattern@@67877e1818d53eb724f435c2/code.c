@@ -3,7 +3,7 @@ int main(){
     int n;
     scanf("%d",&n);
     int nst=1;
-    int nsp=n;
+    int nsp=n/2;
     for(int i=1;i<=n;i++){
         for(int j=1;j<=nst;j++){
            printf("*");
