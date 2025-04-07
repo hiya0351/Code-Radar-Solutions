@@ -8,6 +8,7 @@ int main(){
         char d=(char)a+64;
         for(int j=1;j<=nst;j++){
            printf("%c",d);
+           d++;
         }
         nst--;
         printf("\n");
