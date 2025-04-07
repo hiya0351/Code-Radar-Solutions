@@ -22,7 +22,12 @@ int main(){
             nsp--;
         }
         else{
-            nst=nst-2;
+            if(nst=0){
+                nst=0+1;
+            }
+            else{
+ nst=nst-2;
+            }
             nsp++;
         }
         
